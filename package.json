@@ -6,7 +6,7 @@
       "build": "grafana-toolkit plugin:build",
       "test": "grafana-toolkit plugin:test",
       "dev": "grafana-toolkit plugin:dev",
-      "install": "yarn install --pure-lockfile"
+      "pure": "yarn install --pure-lockfile"
     },
     "keywords": [
       "map",
