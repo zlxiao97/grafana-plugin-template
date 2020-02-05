@@ -1,7 +1,6 @@
 import { PanelCtrl } from 'grafana/app/plugins/sdk';
 import moment from 'moment';
 import _ from 'lodash';
-import './css/panel.css';
 
 const panelDefaults = {
   fontsize: 12,
