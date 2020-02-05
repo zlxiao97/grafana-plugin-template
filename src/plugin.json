@@ -1,0 +1,28 @@
+{
+    "type": "panel",
+    "name": "Template",
+    "id": "grafana-template-panel",
+  
+    "info": {
+      "description": "Map Panel Plugin for Grafana",
+      "author": {
+        "name": "Grafana Labs"
+      },
+      "keywords": ["map", "panel"],
+      "logos": {
+        "small": "/img/template_panel_logo.svg",
+        "large": "/img/template_panel_logo.svg"
+      },
+      "links": [
+        {"name": "Project site", "url": "https://github.com/2552895864/grafana-plugin-template"},
+        {"name": "MIT License", "url": "https://github.com/2552895864/grafana-plugin-template/blob/master/LICENSE"}
+      ],
+      "version": "%VERSION%",
+      "updated": "%TODAY%"
+    },
+    "dependencies": {
+      "grafanaVersion": "6.x.x",
+      "plugins": []
+    }
+  }
+  

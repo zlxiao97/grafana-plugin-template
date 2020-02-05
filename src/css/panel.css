@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+  
+.container h2 {
+    line-height: 1.4;
+    text-align: center;
+}
+  

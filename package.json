@@ -1,0 +1,26 @@
+{
+    "name": "grafana-plugin-template",
+    "version": "1.0.0-dev",
+    "description": "Map Panel Plugin for Grafana",
+    "scripts": {
+      "build": "grafana-toolkit plugin:build",
+      "test": "grafana-toolkit plugin:test",
+      "dev": "grafana-toolkit plugin:dev"
+    },
+    "keywords": [
+      "map",
+      "grafana",
+      "plugin",
+      "panel"
+    ],
+    "author": "Grafana Labs",
+    "license": "MIT",
+    "devDependencies": {
+      "@grafana/toolkit": "next",
+      "@types/grafana": "https://git@github.com/CorpGlory/types-grafana.git",
+      "@types/lodash": "4.14.132",
+      "lodash": "latest",
+      "moment": "2.24.0"
+    }
+  }
+  
